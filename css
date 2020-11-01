@@ -1,0 +1,97 @@
+/** Base styles **/
+* {
+  box-sizing: border-box;
+}
+h4 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.menu p {
+  background-color: #A52A2A;
+  width: 90%;
+  height: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+  margin-top: 0px;
+}
+.menu h1{
+  margin-right:0px;
+}
+.menu{
+  background-color: #A52A2A;
+  padding:0px;
+  margin: 5px 0px 5px 0px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+
+/** Desktop only **/
+@media (min-width: 992px) {
+  .col-lg-4, .col-lg-4, .col-lg-4 {
+    float: left;
+    border: 2px solid white;
+  }
+  .col-lg-4 {
+    width: 33%;
+  }
+}
+
+/** Medium devices only **/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    border: 2px solid white;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/** Phones only **/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    border: 2px solid white;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  
+}
+
+.col-lg-4 col-md-6 col-sm-12 {
+  background-color: #A52A2A;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+  border-right-width: 10px;
+  border-left-width: 10px;
+}
+
+.col-lg-4 col-md-12 col-sm-12{
+background-color: #A52A2A;
+box-sizing: border-box;
+border-top-width: 10px;
+border-bottom-width: 10px;
+border-right-width: 10px;
+border-left-width: 10px;
+}
+
+.container h1{
+  text-align:;
+  background-color: grey;
+  float:right;
+  border-style: solid;
+  margin-top: 0px;
+}
